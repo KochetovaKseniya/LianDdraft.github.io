@@ -1,0 +1,39 @@
+.card-post {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    max-width: 25em;
+    width: 90%;
+
+
+    p {
+        margin: 2em 0;
+    }
+    .card-icon {
+        background-color: black;
+        color: white;
+        width: 9em;
+        height: 3em;
+        padding: 10px;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .card-title {
+        text-transform: none;
+        font-size: 16px;
+    }
+    .card-subtitle, 
+    .data {
+        text-transform: none;
+        font-size: 12px;
+        color: gray;   
+    }
+    .card-text {
+        text-transform: none;
+        color: gray;
+        line-height: 25px;
+        text-align: justify;
+    }
+}

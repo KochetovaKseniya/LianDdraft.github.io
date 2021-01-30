@@ -1,0 +1,48 @@
+@import 'components/header.scss';
+@import 'components/footer.scss';
+
+// All blocks
+@import 'blocks/slider.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/button.scss';
+@import 'blocks/contact.scss';
+@import 'components/modal.scss';
+
+
+
+//All pages
+@import 'components/about.scss';
+@import 'components/gallery.scss';
+@import 'components/blog.scss';
+
+
+
+@mixin font {
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+} 
+
+html, body {
+    @include font;
+}
+body {
+    background-color: #f3f2f2;
+}
+
+a:visited, a:active {
+    color: black;           
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        margin-bottom: 8em;
+
+    }        
+}

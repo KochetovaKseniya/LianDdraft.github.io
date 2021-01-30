@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5em;
+
+    .content {
+        background-color: white;
+        height: 18em;
+    }
+
+    .subtitle {
+        color: gray;
+        padding: 1em;
+    }
+
+    .w3-container {
+        padding: 0;
+    }
+    .fab {
+        color: gray;
+    }
+    .social-links {
+        width: 100vw;
+
+        border: 2px solid rgb(206, 204, 204);
+        border-right: none;
+        border-left: none;
+    }
+
+    @media screen and(max-width: 600px) {
+        .social-links {
+            width: 100vw;
+            display: flex;
+            flex: row nowrap;
+        }
+    }      
+}

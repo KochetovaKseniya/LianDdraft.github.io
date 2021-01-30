@@ -1,0 +1,83 @@
+#gallery {
+    .w3-container {
+        margin:  1em 8em;
+    }
+    .w3-button {
+        margin: 2em 0;
+    }
+    a:hover {
+        cursor: crosshair;
+    }
+    .w3-btn {
+        cursor: crosshair;
+        margin: 0;
+        padding: 0;
+    } 
+    @media screen and(max-width: 600px) {
+        .w3-button {
+            display: none;
+        }
+        .w3-container {
+            margin:  2em;
+        }
+    }
+}
+#itemCard {
+    .items-content{
+        text-align: start;
+        margin-top: 1em;
+
+        h3 {
+            margin: 0;
+            letter-spacing: 3px;
+        }
+        .subtitle {
+            font-weight: 600;
+            text-transform: none;
+            font-size: 16px;        
+        }
+        .row {
+            display: flex;
+            flex: row wrap;
+            margin: 1em 0;
+
+            .data, .likes {
+                text-transform: none;
+                font-weight: 600;
+                font-size: 12px;
+                padding-right: 2em;
+            }
+            .fa-heart {
+                padding-right: 0.5em;
+            }
+
+            @media screen and(max-width: 400px) {
+                display: block;                
+            }
+        }
+        .items-content--text {
+            text-transform: none;
+            font-size: 14px;
+            color: gray;
+            line-height: 25px;
+            margin: 3em 0;
+        }
+        .tags {
+            margin: 1em 0;
+
+            .tags-title {
+                font-weight: 600;
+                padding: 1em 0;
+            }
+            .tags-text {
+                text-transform: none;
+                color: gray;
+                font-size: 14px;
+            }
+
+        }
+    }
+    .items-image {
+        margin: 3em 0;
+    }
+}

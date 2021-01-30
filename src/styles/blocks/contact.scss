@@ -1,0 +1,110 @@
+.contact-header {
+    margin-bottom: 4em;
+    margin-top: 7em;
+}
+#contact {
+    background-color: white;
+    padding: 4em 0;
+
+    h3 {
+        letter-spacing: 6px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    hr {
+        border: none; 
+        color: black; 
+        background-color: black;
+        height: 2px; 
+        width: 100px;
+    }
+    .subtitle {
+        text-transform: none;
+        opacity: 0.8;
+    }
+    .adress {
+        margin: 2em 0;
+        text-transform: none;
+    }
+    .tel {
+        text-transform: none;
+        margin: 0.4em 0;
+    }
+    .email-row  {
+        margin-top: 0;
+        margin: 2em;
+        display: flex;
+        flex: row wrap;
+        
+        input[placeholder]  {
+            font-style: italic;
+        }
+
+        &__name {
+            margin-right: 1em;
+        }
+    }
+    .message {
+        margin-top: 0;
+        margin: 2em;
+        textarea {
+            height: 8em;
+        }
+        textarea[placeholder]  {
+            font-style: italic;
+            text-justify: start;
+            text-align: start;
+        }
+    }
+    button{
+        margin-left: 3em;
+    }
+
+    @media screen and (max-width: 600px) {
+        & {
+            width: 100%;
+        }
+        .contact-info--email {
+            margin-top: 2em;
+            text-align: center;
+        }
+        .email-row {
+            display: block;
+            margin: 0;
+
+        }
+        .email-row__name {
+            margin-bottom: 2em;
+        }
+        .message {
+            margin: 1em 0;
+        }
+        button {
+            margin-top: 2em;
+            text-align: center;
+        }
+        .contact-info--adress {
+            text-align: center;
+
+            hr {
+                margin-left: 6em;              
+
+            }
+        }
+    }
+}
+
+.contact-card {
+    .title {
+        text-align: start;
+        font-style: 24px;
+    }
+}
+
+
+#map {
+    width: 100%;
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}

@@ -1,0 +1,30 @@
+header {
+    height: auto;
+    margin-bottom: 2em;
+
+    nav .w3-top {
+        background-color: white;
+
+        display: flex;
+        flex: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        font-weight: 600;
+        font-size: 14px;
+
+        @media screen and(max-width: 600px) {
+            justify-content: flex-start;
+            margin: 32px;
+            font-size: 24px;
+        }
+
+        .w3-bar-item {
+            color: gray;
+        }
+        input {
+            font-weight: 300;
+            font-style: italic;
+        }
+    }
+}
